@@ -80,9 +80,6 @@ python lvgl_c_array_to_bin_and_image.py modifiers_sym.c output/ --png
 - `output/alt.png` - 14×14 PNG image
 - ... (all icons in the file)
 
-![ZMK Icons Output](images/zmk_icons.png)
-*ZMK modifier icons: Ctrl, Alt, Shift, Cmd symbols*
-
 ### Example 2: SquareLine Studio Icons
 
 Convert SquareLine Studio exported true color icons:
@@ -95,9 +92,6 @@ python lvgl_c_array_to_bin_and_image.py chronos_sms_icon.c output/ --png
 **Output:**
 - `output/chronos_sms_icon.bin` - LVGL binary format
 - `output/chronos_sms_icon.png` - High-quality PNG image
-
-![SquareLine Icon](images/squareline_icon.png)
-*SquareLine Studio exported SMS icon in full color*
 
 ### Example 3: Extract Specific Icon
 
